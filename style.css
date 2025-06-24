@@ -14,9 +14,9 @@ body {
 
 #bg-video {
     position: fixed;
-    right: 15%;
+    right: 5%;
     top: 50%;
-    left: 75%;
+    left: 50%;
     transform: translate(-50%,-50%);
     bottom: 0;
     min-width: 100%;
