@@ -1,4 +1,4 @@
-/* Asosiy stil */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -14,7 +14,7 @@ body {
 
 #bg-video {
     position: fixed;
-    right: 5%;
+    right: 5px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -27,17 +27,16 @@ body {
     filter: brightness(0.7);
 }
 
-
 .business-card {
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0);
     width: 350px;
     padding: 30px;
     text-align: center;
     position: relative;
     overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
     background: none;
-    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .profile {
@@ -114,7 +113,7 @@ body {
     background-color: rgba(46, 204, 113, 0.9);
 }
 
-
+/* Animatsiyalar uchun */
 @keyframes bounce {
     0%, 100% {
         transform: translateY(0);
