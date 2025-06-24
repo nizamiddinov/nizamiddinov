@@ -15,9 +15,14 @@ body {
 #bg-video {
     position: fixed;
     right: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    width: auto;
+    height:auto;
     z-index: -1;
     filter: brightness(0.7);
 }
@@ -110,7 +115,7 @@ body {
     background-color: rgba(46, 204, 113, 0.9);
 }
 
-/* Animatsiyalar uchun */
+
 @keyframes bounce {
     0%, 100% {
         transform: translateY(0);
